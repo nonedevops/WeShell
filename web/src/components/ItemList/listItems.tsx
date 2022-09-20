@@ -5,14 +5,9 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import DriveFileMoveIcon from '@mui/icons-material/DriveFileMove';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import ListItemText from '@mui/material/ListItemText';
-import ListSubheader from '@mui/material/ListSubheader';
 import LogoutIcon from '@mui/icons-material/Logout';
+import ExtensionIcon from '@mui/icons-material/Extension';
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import PeopleIcon from '@mui/icons-material/People';
-import BarChartIcon from '@mui/icons-material/BarChart';
-import LayersIcon from '@mui/icons-material/Layers';
-import AssignmentIcon from '@mui/icons-material/Assignment';
 
 export const mainListItems = (
   <React.Fragment>
@@ -42,7 +37,7 @@ export const mainListItems = (
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <BarChartIcon />
+        <ExtensionIcon />
       </ListItemIcon>
       <ListItemText primary="Extend" />
     </ListItemButton>
